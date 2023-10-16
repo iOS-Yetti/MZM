@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		3B106EE02AD6891200F72781 /* MZMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B106EDF2AD6891200F72781 /* MZMApp.swift */; };
-		3B106EE22AD6891200F72781 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B106EE12AD6891200F72781 /* ContentView.swift */; };
+		3B106EE22AD6891200F72781 /* MatZipMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B106EE12AD6891200F72781 /* MatZipMapView.swift */; };
 		3B106EE42AD6891300F72781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B106EE32AD6891300F72781 /* Assets.xcassets */; };
 		3B106EE72AD6891300F72781 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B106EE62AD6891300F72781 /* Preview Assets.xcassets */; };
+		3B106EEE2AD68C3100F72781 /* MatZipSearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B106EED2AD68C3100F72781 /* MatZipSearchButton.swift */; };
+		3BFE76082ADCE77E00097856 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE76072ADCE77E00097856 /* SearchView.swift */; };
+		3BFE760A2ADD2B7600097856 /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE76092ADD2B7600097856 /* TapView.swift */; };
+		3BFE760C2ADD2C3E00097856 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE760B2ADD2C3E00097856 /* MainView.swift */; };
+		3BFE760E2ADD5A7800097856 /* APIStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE760D2ADD5A7800097856 /* APIStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B106EDC2AD6891200F72781 /* MZM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B106EDF2AD6891200F72781 /* MZMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZMApp.swift; sourceTree = "<group>"; };
-		3B106EE12AD6891200F72781 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B106EE12AD6891200F72781 /* MatZipMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatZipMapView.swift; sourceTree = "<group>"; };
 		3B106EE32AD6891300F72781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B106EE62AD6891300F72781 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B106EED2AD68C3100F72781 /* MatZipSearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatZipSearchButton.swift; sourceTree = "<group>"; };
+		3BFE76072ADCE77E00097856 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3BFE76092ADD2B7600097856 /* TapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
+		3BFE760B2ADD2C3E00097856 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3BFE760D2ADD5A7800097856 /* APIStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				3B106EDF2AD6891200F72781 /* MZMApp.swift */,
-				3B106EE12AD6891200F72781 /* ContentView.swift */,
+				3B106EE12AD6891200F72781 /* MatZipMapView.swift */,
+				3BFE76072ADCE77E00097856 /* SearchView.swift */,
+				3BFE76092ADD2B7600097856 /* TapView.swift */,
 				3B106EE32AD6891300F72781 /* Assets.xcassets */,
 				3B106EE52AD6891300F72781 /* Preview Content */,
+				3B106EED2AD68C3100F72781 /* MatZipSearchButton.swift */,
+				3BFE760B2ADD2C3E00097856 /* MainView.swift */,
+				3BFE760D2ADD5A7800097856 /* APIStorage.swift */,
 			);
 			path = MZM;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B106EE22AD6891200F72781 /* ContentView.swift in Sources */,
+				3BFE76082ADCE77E00097856 /* SearchView.swift in Sources */,
+				3BFE760C2ADD2C3E00097856 /* MainView.swift in Sources */,
+				3B106EEE2AD68C3100F72781 /* MatZipSearchButton.swift in Sources */,
+				3BFE760A2ADD2B7600097856 /* TapView.swift in Sources */,
+				3B106EE22AD6891200F72781 /* MatZipMapView.swift in Sources */,
 				3B106EE02AD6891200F72781 /* MZMApp.swift in Sources */,
+				3BFE760E2ADD5A7800097856 /* APIStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
